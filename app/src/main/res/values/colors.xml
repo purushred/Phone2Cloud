@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="actionbar_text">#FFFFFF</color>
+    <color name="light_green_color">#259aa2</color>
+    <color name="accent_color">#1F86CC</color>
+    <color name="dark_blue_color">#036ab1</color>
+    <color name="red_color">#dd4b39</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="black_color">#000000</color>
+    <color name="light_blue_color">#96d0cee9</color>
+    <color name="green_color">#99CC00</color>
+    <color name="blue_color">#00CCFF</color>
+
+    <!--<color name="orange_color">#ffb61c</color>-->
+    <color name="orange_color">#1ebea5</color>
+    <color name="blue_color_light">#2ec1cc</color>
+    <color name="green_color_light">#1a8468</color>
+    <color name="green_color_success">#1a8468</color>
+    <color name="gray_color">#757575</color>
+    <color name="light_gray_color">#A8A8A6</color>
+
+</resources>

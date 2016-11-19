@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange_color"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="File Explorer" />
+
+    <ListView
+        android:id="@+id/dirListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="2dp">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/selectFolderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:src="@drawable/ic_done_white_48dp"
+            app:backgroundTint="@color/accent_color" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/createFolderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:src="@drawable/ic_add_white_48dp"
+            app:backgroundTint="@color/red_color" />
+
+    </LinearLayout>
+</LinearLayout>

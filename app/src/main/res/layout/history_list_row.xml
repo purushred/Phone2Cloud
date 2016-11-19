@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleView"
+        android:text="Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray_color"
+        android:layout_marginTop="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:maxLines="1"/>
+
+    <!--<TextView
+        android:id="@+id/urlView"
+        android:text="URLView"
+        android:textColor="@color/gray_color"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/titleView"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="5dp"
+        android:maxLines="1"/>-->
+
+    <TextView
+        android:id="@+id/lastVisitedView"
+        android:text="Last Visited"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/light_gray_color"
+        android:layout_below="@+id/titleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="5dp"/>
+
+   <!-- <TextView
+        android:id="@+id/visitsView"
+        android:textColor="@color/light_gray_color"
+        android:text="Visits View"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/titleView"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="5dp"/>-->
+
+</RelativeLayout>

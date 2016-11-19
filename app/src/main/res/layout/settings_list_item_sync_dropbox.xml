@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:maxLines="1"
+        android:text="Sync with Dropbox"
+        android:textColor="@color/gray_color"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/subTitleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleView"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:text="Status : Enabled"
+        android:textColor="@color/light_gray_color"
+        android:textSize="13sp" />
+
+    <CheckBox
+        android:id="@+id/statusCheckView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:buttonTint="@color/orange_color"
+        android:gravity="center" />
+
+</RelativeLayout>

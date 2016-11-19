@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- <TextView
+         android:id="@+id/titleView"
+         android:text="Title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="@color/gray_color"
+         android:layout_marginTop="2dp"
+         android:layout_alignParentLeft="true"
+         android:layout_marginBottom="4dp"
+         android:layout_marginLeft="5dp"
+         android:maxLines="2" />-->
+
+    <TextView
+        android:id="@+id/urlView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titleView"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="5dp"
+        android:maxLines="2"
+        android:text="URLView"
+        android:textColor="@color/gray_color" />
+
+    <TextView
+        android:id="@+id/lastVisitedView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/urlView"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="5dp"
+        android:text="Last Visited"
+        android:textColor="@color/gray_color" />
+
+    <TextView
+        android:id="@+id/visitsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lastVisitedView"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="5dp"
+        android:text="Visits View"
+        android:textColor="@color/gray_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visitsView"
+        android:layout_margin="5dp">
+
+        <Button
+            android:id="@+id/visitSiteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/rectangle_shape_green"
+            android:padding="4dp"
+            android:text="Visit Site"
+            android:textAllCaps="false"
+            android:textColor="@color/white_color" />
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/rectangle_shape_red"
+            android:padding="4dp"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/white_color" />
+
+    </LinearLayout>
+</RelativeLayout>

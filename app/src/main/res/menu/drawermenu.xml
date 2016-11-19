@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/main_group_id"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item_whatsapp"
+            android:title="@string/whatsapp_media" />
+<!--
+        <item
+            android:id="@+id/nav_item_sms"
+            android:title="@string/sms" />
+
+        <item
+            android:id="@+id/nav_item_calls"
+            android:title="@string/calls" />-->
+    </group>
+   <!-- <group android:id="@+id/settings_group_id">
+        <item
+            android:id="@+id/settings_id"
+            android:title="@string/settings" />
+    </group>-->
+</menu>

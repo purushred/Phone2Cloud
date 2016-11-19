@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/folderNameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="5dp"
+        android:hint="Folder Name"
+        android:maxLines="2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/folderNameView"
+        android:layout_margin="5dp">
+
+        <Button
+            android:id="@+id/createButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/rectangle_shape_green"
+            android:padding="4dp"
+            android:text="Create"
+            android:textAllCaps="false"
+            android:textColor="@color/white_color" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/rectangle_shape_red"
+            android:padding="4dp"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/white_color" />
+
+    </LinearLayout>
+</RelativeLayout>

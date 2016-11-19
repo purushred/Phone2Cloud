@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/callTypeImage"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/ic_call_made" />
+
+    <TextView
+        android:id="@+id/callerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/callTypeImage"
+        android:maxLines="1"
+        android:text="Caller Name"
+        android:textColor="@color/black_color"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/mobileNoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/callerView"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/callTypeImage"
+        android:maxLines="1"
+        android:text="Phone No."
+        android:textColor="@color/gray_color" />
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/callerView"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/mobileNoView"
+        android:text="Called On"
+        android:textColor="@color/light_gray_color" />
+
+    <TextView
+        android:id="@+id/callDurationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/callerView"
+        android:textColor="@color/light_gray_color" />
+</RelativeLayout>

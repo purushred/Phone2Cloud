@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/accent_color</item>
+        <item name="colorPrimaryDark">@color/accent_color</item>
+        <item name="colorAccent">@color/accent_color</item>
+    </style>
+
+    <style name="SpecialButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/red_color</item>
+        <item name="android:textColorPrimary">#fff</item>
+    </style>
+
+    <style name="GrantButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/accent_color</item>
+        <item name="colorButtonNormal">@color/accent_color</item>
+    </style>
+</resources>
